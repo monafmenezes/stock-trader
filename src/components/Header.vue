@@ -4,7 +4,7 @@
       <span>Stock</span>
       <span class="font-weight-light"> Stock</span>
     </v-toolbar-title>
-    <toolbar-items>
+    <toolbar-items name="primeiro">
       <v-btn flat to="/">Início</v-btn>
       <v-btn flat to="/portfolio">Portifólio</v-btn>
       <v-btn flat to="/stocks">Ações</v-btn>
@@ -12,7 +12,6 @@
 
     <v-spacer></v-spacer>
 
-    <vtoolbar-items>
       <v-btn flat to="/">Finalizar Dia</v-btn>
       <v-menu offset-y>
         <v-btn flat slot="activator">Salvar & Carregar</v-btn>
